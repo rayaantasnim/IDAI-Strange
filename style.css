@@ -328,9 +328,14 @@ h1, h2, h3 {
     font-size: 1.6rem;
   }
 
-  .special-div img, .section img {
+  .special-div img {
     min-width: 80% !important;
     width: 90% !important;
+  }
+
+  .section img{
+    min-width: 95% !important;
+    max-width:95% !important;
   }
 
   .special-div p, .section p {
